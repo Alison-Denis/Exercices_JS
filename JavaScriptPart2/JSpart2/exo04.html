@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="Content-Type" content="text/html"; charset="utf-8"; lang="fr"/>
+    <meta name="desription" content="Exercices JavaScript Partie 2"/>
+
+    <link rel="icon" type="image/png" href="../icone.png" />
+    
+    <title>Exercice 4 - Partie 2 JS</title>
+</head>
+
+<body>
+<h1>Formulaire </h1>
+
+    <form method="post" action="traitement.php">
+        <div>
+            <label for="lastName">Nom :</label>
+            <input type="text" name="lastName" id="lastName"/
+            placeholder="Doe">
+        </div>
+        <div>
+            <br>
+            <label for="firstName">Prénom :</label>
+            <input type="text" name="firstName" id="firstName"
+            placeholder="John"/>
+        </div>
+        <div>
+            <br>
+            <label for="City">Ville :</label>
+            <input type="text" name="City" id="City"
+            placeholder="New York"/>
+        </div>
+        <div>
+            <br>
+            <input type="button" id="button" value="RAZ" onclick="reset()"/>
+            <p id='msg'></p>
+        </div>
+
+</form>
+
+
+    <script type="text/javascript">
+
+        document.getElementById("button").onreset = function() {
+            reset()
+        };
+
+    </script>
+
+</body>
+</html>

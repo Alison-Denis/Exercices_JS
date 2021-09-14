@@ -1,0 +1,29 @@
+.container {
+    display:flex;
+}
+
+div {
+    margin-left: 50px;
+    width:20px;
+    height:20px;
+    color:black;
+}
+
+#btnV {
+    background-color: rgb(123, 212, 34);
+}
+
+#btnR {
+    background-color: rgb(202, 15, 62);
+}
+
+#btnB {
+    background-color: rgb(24, 150, 189);
+}
+
+#text {
+    margin:30px;
+    text-align:justify;
+    line-height: 20px;
+    word-spacing:5px;
+}
